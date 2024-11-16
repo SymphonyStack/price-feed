@@ -7,7 +7,7 @@ const run = async () => {
   const connection = new HermesClient("https://hermes.pyth.network", {});
   // Latest price updates
   const priceUpdates = await connection.getLatestPriceUpdates(price_id);
-  console.log("##", { ...priceUpdates.parsed[0].ema_price }, "##");
+  console.log("##", JSON.stringify(priceUpdates), "##");
 };
 
 run();
