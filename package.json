@@ -1,0 +1,19 @@
+{
+  "name": "pricestream",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@pythnetwork/client": "^2.22.0",
+    "@pythnetwork/hermes-client": "^1.2.0",
+    "axios": "^1.7.7"
+  }
+}
